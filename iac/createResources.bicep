@@ -1305,7 +1305,7 @@ resource dashboard 'Microsoft.Portal/dashboards@2020-09-01-preview' = {
 
 resource aks 'Microsoft.ContainerService/managedClusters@2022-10-02-preview' = {
   name: aksClusterName
-  location: resourceLocation
+  location: 'eastus'
   tags: resourceTags
   identity: {
     type: 'SystemAssigned'
